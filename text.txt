@@ -1,0 +1,21 @@
+working directory   -->   staging area  -->   local repo.  -->   remote repository
+myproject           -->      git add    -->   git commit   -->   git push
+
+Versionskontrolle mit Git und GitHub
+
+code .      // öffnet VSC mit dem WorkingDirectory
+explorer .  // öffnet Explorer mit dem WorkingDirectory
+
+Commands
+==========
+git status
+git init
+git add file1.txt
+git reset file1.txt // unstage file
+git add .           // add all files to stage
+git reset           // unstage all files
+git diff            // changes control
+git restore text.txt
+
+// VERSION CONTROL
+git commit -m "git commands for changes control is added"
